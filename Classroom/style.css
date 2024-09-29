@@ -1,0 +1,22 @@
+/* yeh symbol *{} use krny se puray document ka color same hojayga  */
+/* or class k liye hm use krty hein . or phir class ka naam */
+ /* animation me sb se pehly hm animation ka naam likhty hein, 2.phir oski duration likhty hein, 3.timing function likhty hein(means oska koi bhi style), 4.phir delay likhty hein phir, 5.iteration counts likhty hein 6. phir animation ki direction likhty.*/
+
+.loader{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px solid blue ;
+    border-top: 20px solid black;
+    animation: spinAnimate 1s ease-in 0s infinite normal;
+}
+
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
